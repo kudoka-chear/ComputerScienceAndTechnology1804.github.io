@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>小四们的温馨小窝</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<nav id="leftContent">
+		<div class="SchoolName">北京化工大学</div>
+		<div class="ClassName">计科1804</div>
+		<ul>
+			<li><a href="#">班级主页</a></li>
+			<li><a href="#">班级活动</a></li>
+			<li><a href="#">学风建设</a></li>
+			<li><a href="#">党团活动</a></li>
+			<li><a href="#">本周课程</a></li>
+		</ul>
+	</nav>
+	<div id="rightContent">
+		<div class="Content">
+			<div class="classImg">
+				<img src="images/logo.jpg" id="logoStyle">
+			</div>
+			<div class="innerContent">
+				<h1 class="nickname">
+					小四们的温馨小窝
+				</h1>
+			<div class="introduce">
+				<p>这里，是计科1804,26名同学温暖的家，我们彼此扶持，相互鼓励，向着美好的未来，携手前行！</p>
+			</div>
+			<div class="btn">
+				<div class="know-btn">
+					<a href="">了解更多</a>
+				</div>
+				<div class="contact-btn">
+					<a href="#">联系我们</a>
+				</div>
+			</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
