@@ -1,0 +1,113 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/bgi.jpg);
+	border-right-width: 100%;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+#leftContent{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 20%;
+	text-align: center;
+	position: fixed;
+	top: 15vh;
+	font-weight: 300;
+	font-size: 1rem;
+	color: white;
+	height: 70vh;
+	display: block;
+}
+.SchoolName{
+	padding-top: 45px;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.ClassName{
+	padding-top: 10px;
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+#leftContent ul{
+	list-style: none;
+}
+#leftContent ul li{
+	margin: 35px 0;
+}
+#leftContent ul li a{
+	font-size: 18px;
+	padding: 20px 30px;
+}
+#rightContent{
+	top: 15vh;
+	position: relative;
+	left: 30%;
+	width: 70%;
+	height: 80%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:10% 0;
+}
+.Content{
+	position: relative;
+	height: 80%;
+	width: 70%;
+	left: 15%;
+	display: flex;
+	justify-content: space-between;
+}
+.innerContent{
+	position: relative;
+	width: 500px;
+	float: right;
+	height: 150px;
+}
+.nickname{
+	border-bottom: 2px solid #fff;
+	width: 260px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.classImg{
+	width: 150px;
+	overflow: hidden;
+	height: 150px;
+	margin-top: 40px;
+}
+#logoStyle{
+	width: 150px;
+	float: left;
+	overflow: hidden;
+}
+.introduce{
+	font-size: 13px;
+	line-height: 26px;
+}
+.btn{
+	width: 250px;
+	display: flex;
+	justify-content: space-around;
+}
+.know-btn a{
+	border:2px solid #fff;
+	font-size: 13px;
+	padding: 8px 15px;
+	display: inline-block;
+}
+.contact-btn a{
+	display: inline-block;
+	background-color: white;
+	padding: 8px 15px;
+	color: #232323;
+	font-size: 13px;
+	border:2px solid #fff;
+}
