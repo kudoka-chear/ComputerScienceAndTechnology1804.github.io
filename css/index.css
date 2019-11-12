@@ -2,7 +2,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	background-image: url(images/bgi.jpg);
-	border-right-width: 100%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	font-size: 16px;
 	font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -16,7 +16,7 @@ a{
 	text-decoration: none;
 }
 #leftContent{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	width: 20%;
 	text-align: center;
 	position: fixed;
@@ -54,7 +54,7 @@ a{
 	width: 70%;
 	height: 80%;
 	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	padding:10% 0;
 }
 .Content{
